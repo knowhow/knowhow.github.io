@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset='utf-8'>
+<link href='../../../exports.css' rel='stylesheet'>
+<link href='../../../exports.css' rel='stylesheet'>
+
+</head>
+<body>
+<div id='wrap'>
+<div id='header'>
+<h1>Do we know how to make a good software ?</h1>
+<h2>This is an archived post
+This is an archived post
+</h2>
+</div>
+<div id='content'><div id='nav'>
+<a href="../../../posts/2012/01/misli-kao-programer.html">Previous</a>
+&nbsp; 
+<a href="../../../index.html">Index</a>
+&nbsp; 
+<a href="../../../posts/2011/12/f18-development.html">Next</a>
+</div>
+<div class='post'>
+<div class='post_header'>
+<h3>Imenovanje, verzioniranje i uniformnost</h3>
+<div class='post_info'>
+<span class='post_time'>December 15 2011,  3:53 AM</span>
+<span class='author'>&nbsp;by Ernad Husremović</span>
+</div>
+</div>
+<div class='post_body'><p>Zadnjih par dana po čitave dane (<a href="http://redmine.bring.out.ba/issues/25692">#25692</a>, <a href="http://redmine.bring.out.ba/issues/25685">#25685</a>,&nbsp;<a href="http://redmine.bring.out.ba/issues/25696">#25696</a>&nbsp;) ispravljam nazive artifakta (dokumenata, naziva projekata, imena skripti i aplikacija) i govorim:</p>
+<blockquote class="posterous_short_quote">
+<p>Ne valja, nisi na dobroj lokaciji, nisi dobro ime naveo. Ažuriraj "changelog", promjeni verziju ...</p>
+</blockquote>
+<p>Problem je očigledno u tome &scaron;to kolege ovakvim stvarima ne pridaju pažnju.</p>
+<p>Nakon niza zamjerki koje im po ovom pitanju uputim, vjerovatno u sebi pomisle:</p>
+<blockquote class="posterous_medium_quote">
+<p>Eno ga opet. Sitničari. Pa ispraviću kasnije ... Od tolikog posla, on mi jo&scaron; "zakera" na imenovanju dokumentata, changelog-u, da li koristim da koristi 7zip ili gzip za formiranje arhive ...</p>
+</blockquote>
+<p><!--more--><span style="text-decoration: underline; font-size: medium;"><strong>Verzioniranje</strong></span></p>
+<p>Sistem verzioniranja je najbolje objasniti matičnim brojem građanina.&nbsp;</p>
+<p>U mom razredu su bili dvojica drugova sa istim imenom i prezimenom. Da bi govorio o nekome od njih nije bilo dovoljno reći ime i prezime, nego si morao dodati njihov nadimak, ime oca/majke ili matični broj.&nbsp;</p>
+<p>Verzija artifakta prestavlja taj dodatni atribut. Bez nje nije moguće identificirati artifakt.</p>
+<p>Samo informacija:</p>
+<blockquote>
+<p>Koristim&nbsp;<a href="https://github.com/knowhow/F18_knowhow/blob/4113967cb653111a2521a33aa15b4e74b7658f17/CHANGELOG.md">F18 ver. 0.9.18</a>" na Linux/Ubuntu 10.04&nbsp;</p>
+</blockquote>
+<p>timu za podr&scaron;ku jasno identificira predmet podr&scaron;ke.&nbsp;</p>
+<p>Ako se <a href="https://github.com/knowhow/F18_knowhow/blob/4113967cb653111a2521a33aa15b4e74b7658f17/CHANGELOG.md">changelog</a>&nbsp;artifakta redovno održava, problemi tipa "zastarjela verzija" se u najkraćem roku mogu identificirati i otkloniti.</p>
+<p>Zato su ažuran i kvalitetan "changelog" u mnogim situacijama sasvim dovoljan izvor informacija za otklanjanje korisničkog problema.</p>
+<p><span style="text-decoration: underline; font-size: medium;"><strong>Uniformnost</strong></span></p>
+<p>Sinoć, kako to često u posljednje vrijeme biva :(, zavr&scaron;avali smo rad na verziji 0.1.0 ovog artifakta:&nbsp;<a href="https://github.com/knowhow/F18_ubuntu_3rd_party_install">F18_ubuntu_3rd_party_install</a>.</p>
+<p>Kolega je napravio change log, kako je i sam rekao "po svom nahođenju". Reako sam:</p>
+<blockquote class="posterous_short_quote">
+<p>Nemoj ti po svom nahođenju praviti changelog. "Podžoni" F18 changelog formatom i sadržajem.</p>
+</blockquote>
+<p>Već umoran, rekao je:</p>
+<blockquote class="posterous_short_quote">
+<p>Ma dobro, pogledaj prvo &scaron;to sam napravio.</p>
+</blockquote>
+<p>Ja sam bio isključiv:</p>
+<blockquote class="posterous_short_quote">
+<p>Postoji definisan sadržaj, drži se njega.</p>
+</blockquote>
+<p>Na žalost, sada vidim da se kolega i dalje nije do kraja držao sadržaja, pa sam to <a href="https://github.com/knowhow/F18_ubuntu_3rd_party_install/commits/master/CHANGELOG.md">ispravio</a>.</p>
+<p>Na kraju, ovo je changelog kako <a href="https://github.com/knowhow/F18_ubuntu_3rd_party_install/blob/948b3484e77e244338b4e2937de/CHANGELOG.md">treba</a>.</p>
+<p><span style="text-decoration: underline; font-size: medium;"><strong>Uniformnost gu&scaron;i kreativnost !?</strong></span></p>
+<p>Ljudi često mje&scaron;aju nedostatak uniformnosti sa individualno&scaron;ću ili pak davanju prostora za sopstvenu kreativnost.</p>
+<p>To je skroz pogre&scaron;no. Kreativnost se ne iskazuje na ovakvim stvarima.</p>
+<p>Ovo je prije svega neprihvatanje standarda koje razvojni tim prakticira. Ako vi pi&scaron;ete kod po svom nahođenju, stvarate probleme ostatku tima. Njima je teže pratiti va&scaron; rad i stalno gube vrijeme na ukazivanje da su postojeće prakse razvojnog tima drugačije.</p>
+<p>Svoju kreativnost trebate pokazivati novim i kvalitetnijim rje&scaron;enjima, efikasnijim algoritmima, ili prijedlozima za upgrade developerskih procedura.</p>
+<p>Developerske procedure su meta-artifakt razvojnog tima. Artifakt koji tim koristi za razvoj. Te procedure su stoga takođe predmet stalnih promjena.</p>
+<p>Sve dok su određene procedure na snazi, držite se principa <strong>uniformnosti</strong>.</p>
+<p><span style="color: #ff0000;"><strong>To vas čini timskim igračem.</strong></span></p>
+<p><span style="text-decoration: underline;"><strong><span style="font-size: medium;">Sitničarenje ili bitna stvar ?</span></strong></span></p>
+<p>Da li je primjer "changelog"-a cjepidlačenje ? Ovisi o projektu, odnosno artifaktu koji je predmet rasprave.</p>
+<p>Prije svega ovisi o <strong>frekvenciji</strong> kori&scaron;tenja tog artifakta. Ako se ne&scaron;to jednokratno radi, verzioniranje tog artifakta nije nužno. Ali i taj jednokratni posao, ako nije rutinski (trivijalan) ima veliku vjerovatnoću da u budućnosti bude predmet upgrade-a.</p>
+<p>Stoga je verzioniranje u najvećem broju slučajeva jedini i najbolji izbor.</p>
+<p>Vodeći se principom velike frenkvencije kori&scaron;tenja, jutro smo otvorili poseban projekat za procedure migracije <a href="https://github.com/knowhow/FMK2F18">FMK =&gt; F18</a>.</p>
+<p><span style="text-decoration: underline; font-size: medium;"><strong>Novi (pod)projekat ?</strong></span></p>
+<p>Na tu temu sam napisao zabilje&scaron;ku za developere: <a href="http://redmine.bring.out.ba/issues/25691">Ne prezajmo od kreiranja novog github i/ili redmine projekta</a>. Kada sam ovo učinio, kolega koji je zadužen za njegovu realizaciju je rekao:</p>
+<blockquote class="posterous_short_quote">
+<p>Ma da, tako je najbolje.</p>
+</blockquote>
+<p>Međutim, da bi ovo postala redovna praksa, potrebno je uložiti napore.</p>
+<p><span style="text-decoration: underline; font-size: medium;"><strong>Zaključak</strong></span></p>
+<p>Otvaranje novog projekta, održavanje changelog-a pripadaju grupi poslova koji developeri redovno svrstavaju u "sporedne" ili "nužno zlo".</p>
+<p>Da bi se razvojni tim pridržavao ovih procedura potrebno je uložiti značajne napore.</p>
+<p>Međutim, ako stvari gledate na ovako:</p>
+<blockquote class="posterous_short_quote">
+<p>Bez uniformnosti i verzioniranja nemoguće je proizvesti dobar software !</p>
+</blockquote>
+<p>onda ste spremni odvojiti vrijeme i uložiti značajnu energiju da ove procedure ugradite u va&scaron; razvojni tim.</p>
+<p>S obzirom da je misija "knowhow ERP" proizvesti <strong>dobar</strong> ERP software, mi na ove "sitnice" puno polažemo.</p>
+<p>&nbsp;</p></div>
+<div class='post_tags'>
+<h4>Tags</h4>
+<div class='post_tags_list'>developer, methodology</div>
+</div>
+<div class='post_responses'>
+<h4>224 views and 1 response</h4>
+<ul class='post_responses list'>
+<li class='response clearfix'>
+<div class='response_header'>
+<div class='response_time'>Dec 15 2011,  7:00 AM</div>
+<div class='response_name'>Ernad Husremović responded:</div>
+</div>
+<div class='response_body'><a href="http://redmine.bring.out.ba/issues/25706" rel="nofollow">http://redmine.bring.out.ba/issues/25706</a></div>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>

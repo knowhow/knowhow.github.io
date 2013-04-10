@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset='utf-8'>
+<link href='../../../exports.css' rel='stylesheet'>
+<link href='../../../exports.css' rel='stylesheet'>
+
+</head>
+<body>
+<div id='wrap'>
+<div id='header'>
+<h1>Do we know how to make a good software ?</h1>
+<h2>This is an archived post
+This is an archived post
+</h2>
+</div>
+<div id='content'><div id='nav'>
+<a href="../../../posts/2011/09/xtuple-openrpt-users-guide.html">Previous</a>
+&nbsp; 
+<a href="../../../index.html">Index</a>
+&nbsp; 
+<a href="../../../posts/2011/09/test-driven-development-sa-c-fitnesse-cslim-c.html">Next</a>
+</div>
+<div class='post'>
+<div class='post_header'>
+<h3>Mac OS X PostgreSQL toolset</h3>
+<div class='post_info'>
+<span class='post_time'>September 21 2011,  7:20 AM</span>
+<span class='author'>&nbsp;by Ernad Husremović</span>
+</div>
+</div>
+<div class='post_body'><p>Prikazaću alate koje koristim za analizu PostgreSQL-a na Mac-u.</p>
+<p><!--more--></p>
+<p><span style="text-decoration: underline;"><strong>PostgreSQL instalacija</strong></span></p>
+<p>PostgreSQL ima native <a href="http://www.postgresql.org/download/">MacOSX installer.</a>&nbsp;Po instalaciji imamo pgAdmin grafički alat, shell, i dokumentaciju:</p>
+<p><div class='p_embed p_image_embed'>
+<img src='../../../image/2011/09/32019512-postgresql_apps.png'>
+</div>
+</p>
+<p><span style="text-decoration: underline;"><strong><span style="font-size: medium;"><a href="http://www.pgadmin.org/">pgAdmin</a></span></strong></span></p>
+<p><span style="text-decoration: underline;"><strong><span style="font-size: medium;"><div class='p_embed p_image_embed'>
+<img src='../../../image/2011/09/32019140-pgadmin.png'>
+</div>
+</span></strong></span></p>
+<p>pgAdmin koristim za "surfanje" po &scaron;emama postojećih i kreiranje novih baza. On mi takođe daje prikaz view-ova, stored-procedura i trigera.</p>
+<p><span style="text-decoration: underline;"><strong><span style="font-size: medium;">psql</span></strong></span></p>
+<p><span style="text-decoration: underline;"><span> </span></span></p>
+<p>psql konzola je veoma često ipak najbrži način za istraživanje baze:&nbsp;</p>
+<p>Detalji ovdje: <a href="http://redmine.bring.out.ba/issues/24471">http://redmine.bring.out.ba/issues/24471</a></p>
+<p><span style="text-decoration: underline; font-size: medium;"><strong>Power-architect (PA)</strong></span></p>
+<p><a href="http://www.sqlpower.ca/page/architect">SQL power</a>&nbsp;je stvarno vrstan vendor raznih sql alata. Osnovne verzije svih tih alatu su opensource software izdate pod GPLv3 licencom. <a href="http://redmine.bring.out.ba/issues/24470">PA Reference guide</a>:</p>
+<p><div class='p_embed p_file_embed'>
+<div class='p_embed_description'>
+<strong>PowerArchitectUserGuide.pdf</strong>
+<a href="../../../file/2011/09/7335282-PowerArchitectUserGuide.pdf">View this file</a>
+</div>
+</div>
+</p>
+<p>Sa power architectom se može raditi raditi analize baze (profiler), kopiranje tabela iz jednu u drugu, usporedba između različitih verzija baze ...</p>
+<p>Ja sam ga koristio za analizu i formiranje ER modela <a href="https://github.com/knowhow/knowhow_doc/tree/master/db">xtuple/xpos baze</a></p>
+<p><div class='p_embed p_image_embed'>
+<img src='../../../image/2011/09/32020294-power_architect_1.png'>
+<img src='../../../image/2011/09/32020318-power_architect_2.png'>
+</div>
+Sa PA-om mogu napraviti dobar print layout shema db-a, &scaron;to smatram veoma korisnim. Naime, za mene je u mnogim slučajevima printana kopija db-a najbolji dokument za orjentaciju.</p>
+<p>Naravno, jedno i drugo mogu kombinovati. U "živom" PA prikazu mogu detaljno analizirati polja i relacije među tabelama.</p>
+<p><span style="text-decoration: underline; font-size: medium;"><strong>Suma-sumare</strong></span></p>
+<p>Vizuelni prikaz tabela i relacija je potreban i koristan alat za analizu i razvoj baze podataka. PA u tom dijelu dobro radi svoj posao.</p>
+<p>Međutim, kada je potrebno "prožicati" podatke, GUI koji nude PA i pgAdmin nisu najbolje rje&scaron;enje. Čista sql konzola - psql tada najbolje radi posao. Konzola majka :).</p></div>
+<div class='post_tags'>
+<h4>Tags</h4>
+<div class='post_tags_list'>database, developer, macosx, postgresql, sql, toolset</div>
+</div>
+<div class='post_responses'>
+<h4>295 views and 0 responses</h4>
+<ul class='post_responses list'>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>

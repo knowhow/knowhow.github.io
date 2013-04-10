@@ -1,0 +1,155 @@
+<item>
+	<title>F18 development</title>
+	<link>http://do-we-know-how.bring.out.ba/f18-development</link>
+	<pubDate>Tue Dec 13 09:24:00 -0800 2011</pubDate>
+	
+	<dc:creator><![CDATA[Ernad Husremović]]></dc:creator>
+	
+	
+		<category domain="tag" nicename="developer"><![CDATA[developer]]></category>
+	
+		<category domain="tag" nicename="f18_knowhow"><![CDATA[f18_knowhow]]></category>
+	
+		<category domain="tag" nicename="methodology"><![CDATA[methodology]]></category>
+	
+
+	<category><![CDATA[Uncategorized]]></category>
+
+	<category domain="category" nicename="uncategorized"><![CDATA[Uncategorized]]></category>
+
+  <guid isPermaLink="false">http://do-we-know-how.bring.out.ba/f18-development</guid>
+	<description></description>
+	<content:encoded><![CDATA[<p>O nastanku F18 i njegovim osnovnim ciljevima sam pisao <a href="http://do-we-know-how.bring.out.ba/kako-je-nastao-f18">ovdje</a>.</p>
+<p>Ovdje ću glavne principe i prakse razvoja F18 čiji je cilj da se "može" iz predhodnog članka pretvori u "jeste".</p>
+<p><span style="text-decoration: underline; font-size: medium;"><strong>1) Agilni release management</strong></span></p>
+<p>U kontekstu F18 ovo sam pomenuo prvi put na ticketu&nbsp;<a href="http://redmine.bring.out.ba/issues/25435">#25435</a>&nbsp;</p>
+<p><!--more--></p>
+<p>"Release early, release often" je dobro poznat u dana&scaron;njem svijetu razvoja software-a. &nbsp;</p>
+<p>Međutim, nije mi poznato da se u kod bosanskih ERP rje&scaron;enja često primjenjuje, ako ikako.</p>
+<p>Ovdje smo iskoristili činjenicu da je F18 kao i svi drugi "knowhow ERP" podprojekti otvoreni software. Zato smo na <a href="http://code.google.com/p/knowhow-erp-f18/downloads/list?can=1&amp;q=&amp;colspec=Filename+Summary+Uploaded+ReleaseDate+Size+DownloadCount">google code-a stavili na&scaron; software</a>.</p>
+<p>Tačka 6) ovog<a href="http://redmine.bring.out.ba/projects/f18/wiki/F18_windows_install"> wiki-ja</a> opisuje proces update-a F18. Traje nekih 2-3 minute.&nbsp;</p>
+<p>Ni&scaron;ta manje bitna je činjenica da se proces pripreme nove verzije traje nekih 5-10 minuta, i da to bez problema može obaviti&nbsp;<a href="http://redmine.bring.out.ba/projects/f18/wiki/F18_Windows_build">serviser</a>.</p>
+<p>Treba reći da se ovaj proces može značajno upotrijebiti. Međutim, već ova prva verzija release management-a F18 daje odlične rezultate.</p>
+<p><span style="text-decoration: underline; font-size: medium;"><strong>2) Razdvajanje korisnik/serviser/developer uloga</strong></span></p>
+<div><span style="font-size: medium;"><span style="font-size: 13px;">U predhodnom članku sam rekao da se u procesu portiranja nai&scaron;li na značajne&nbsp;</span><a href="http://redmine.bring.out.ba/issues/25578" style="font-size: 13px;">problema</a><span style="font-size: 13px;">.</span></span></div>
+<p>To sam uočio po povratku u firmu nakon &scaron;to sam bio odsutan jednu heftu.</p>
+<p>Učinak kolega je bio daleko ispod mojih očekivanja. Njihov stav je opet bio da su dali svoj maksimum, i da bolje nije moglo.&nbsp;</p>
+<p>S obzirom da je u tom periodu zadatak bio postaviti pilot verziju F18 u produkcijsko okruženje (u bring.out), prva stvar koja mi je upala uoči jeste to da se na uspostavljanju release-ova uop&scaron;te nije radilo&nbsp;<a href="http://redmine.bring.out.ba/issues/25435">#25435</a>.</p>
+<p>Kolege su procijenile da će build-om na računaru kod korisnika ubrzati testiranje i isrpravljanje bug-ova. Moj prvi korak je bio da se uloga korisnik/serviser/developer razvdoji.&nbsp;</p>
+<p>Otvaram <a href="http://redmine.bring.out.ba/projects/f18/boards">korisnički forum</a>, te kao prioritet stavljam uspostavu agilnog release management-a.</p>
+<p><span style="text-decoration: underline; font-size: medium;"><strong>3) Refactoring</strong></span></p>
+<p>Pilot vezija F18 je bila veoma lo&scaron;eg kvaliteta. Većina stvari nije radila kako treba. Jo&scaron; gore, nisam uop&scaron;te imao uvid o tome o nivou pojedinih funkcija.&nbsp;</p>
+<p>Time se praktično uspostavio princip da se bug-ovi otklanjaju reaktivno (kada se dese) a ne proaktivno.</p>
+<p>Lista rizičnog koda (u smislu funkcionalnosti) i koda koji treba planirati za izbacivanje (legacy kod) nije tokom inicijalnog portiranja uspostavljena.</p>
+<p>Dolazim do zaključka da je glavni uzročnik lo&scaron;em kvalitetu dobijene aplikacije, ali i sporosti u procesu portiranja deviza:</p>
+<blockquote class="posterous_short_quote">
+<p>Ne čačkaj stari kod !</p>
+</blockquote>
+<p>Developer je u tom nastojanju tro&scaron;io vrijeme na tumačenje skroz nečitkog koda. Na kraju i kada tako prerađen kod proradi, u prvoj krivini se uočavaju bug-ovi koje je opet veoma te&scaron;ko otkloniti. Za&scaron;to ? Zato &scaron;to se opet mora zaroviti u onaj nečitki kod.</p>
+<p>Zato sam do&scaron;ao do zaključka da je&nbsp;<a href="http://redmine.bring.out.ba/issues/25582">refactoring</a>&nbsp;i podizanje kvaliteta svih procedura razvoja&nbsp;jedino rje&scaron;enje.</p>
+<p><span style="text-decoration: underline; font-size: small;"><strong>3. 1) Idemo unazad !?</strong></span></p>
+<p>Otvaram tickete:</p>
+<ul>
+<li><a href="http://redmine.bring.out.ba/issues/25640">legacy</a></li>
+<li><a href="http://redmine.bring.out.ba/issues/25637">či&scaron;ćenje</a></li>
+</ul>
+<p>Izdajem vi&scaron;e&nbsp;<a href="https://github.com/knowhow/F18_knowhow/blob/e42d533ecbc85c18a73d2ef7f218/CHANGELOG.md">"haos"</a>&nbsp;verzija.</p>
+<p>Kolege nisu ba&scaron; ovaj pristup primile otvorenih ruku. Najvi&scaron;e &scaron;to mogu jeste da - &scaron;ute. Obja&scaron;njavaju kako mnoge stvari koje su radile nakon mojih intervencija ne rade.</p>
+<p>S obzirom da je napravljena migracija na&scaron;eg knjigovodstva na F18, knjigovodstvo trpi. Neka trpi. Zato i jesmo odabrali sebe za pilot.</p>
+<p>Ja sam načisto. Moramo "protresti" development procese u F18.</p>
+<p>Kolege su očigledno krenuli sa praksama i procedurama koje su se ustalile u razvoju FMK.</p>
+<p>&Scaron;to ti je navika zeznuta stvar - F18 su čak i developeri vidjeli kao FMK a ne samo korisnici :)</p>
+<p>&Scaron;alu na stranu, taj način razvoja nas ne vodi ka ciljevima koji su postavljeni pred F18. Takođe, u F18 kao podprojektu "knowhow ERP" treba forsirati moderne prakse i procedure razvoja.</p>
+<p>To &scaron;to je na&scaron; proizvod terminalna aplikacija, ne znači da razvoj mora biti onaj iz 90-tih godina pro&scaron;log vijeka.</p>
+<p><span style="text-decoration: underline; font-size: medium;"><strong>4) Test development environment, TDD</strong></span></p>
+<p>Testiranje bug-ova u lo&scaron;e postavljenom developerskom okruženju je sporo.&nbsp;</p>
+<p>Praksa u razvoja(*) FMK je bila "traktor-sistem". &nbsp;Novi kod se napi&scaron;e, aplikacija se pokrene, vr&scaron;i se testiranje onoga &scaron;to je napravljeno.</p>
+<p>Ovaj sistem redovno generi&scaron;e "side-effect" bug-ove. Narodski rečeno:</p>
+<blockquote class="posterous_short_quote">
+<p>Jedno napravio - drugo pokvario.</p>
+</blockquote>
+<p>Uočeni problemi u razvoju ukazali su mi da <a href="http://en.wikipedia.org/wiki/Test-driven_development">TDD</a> development ima smisla i na projektu kakav je F18.</p>
+<p>Za jedan dan dolazim do konkretnog rje&scaron;enja - <a href="http://redmine.bring.out.ba/issues/25648">#25648</a>.</p>
+<p>Dobijam i prvi rezultat ovog sistema, sa <a href="http://redmine.bring.out.ba/issues/25648#note-7">F18_test</a>&nbsp;stavljam u funkciju modstru funkciju koju sam refactoringom u potpunosti prepisao.</p>
+<p><span style="text-decoration: underline; font-size: medium;"><strong>5) Testni i demo podaci</strong></span></p>
+<p>Testne baze podataka&nbsp;<a href="http://redmine.bring.out.ba/issues/25660">#25660</a>&nbsp;i&nbsp;prikaz postojećih funkcija sistema&nbsp;<a href="http://redmine.bring.out.ba/issues/25661">#25661</a>&nbsp;su usko povezane sa testnim developerskim okruženjem.</p>
+<p>Međutim dijapazon kori&scaron;tenja ovih artifakata je puno &scaron;iri.</p>
+<p>Oni pomažu <strong>serviserima</strong> u razumjevanju određenih funkcija i jednostavnoj reprodukciji problema koje je korisnik prijavio u ranoj fazi razvoja - prije izrade konačnih korisničkih i serviserskih uputstava.&nbsp;</p>
+<p>Oni omogućavaju prezentaciju software-a. Kako od strane IT vendora tako i samostalno. Ovo posljednje je posebno značajno kod "open source" software-a kakva su na&scaron;a rje&scaron;enja.</p>
+<p>Ono je neizostavni sastavni dio ovakvog rje&scaron;enja: &nbsp;<a href="http://redmine.bring.out.ba/issues/25430">F18 koji može za 5 minuta proraditi out-of-box</a></p>
+<p><span style="text-decoration: underline;"><strong><span style="font-size: medium;">6) Bug reporting</span></strong></span></p>
+<p>F18 i dalje ima gre&scaron;aka koliko ti du&scaron;a želi" :(. Iako se radi o pilot radu, iako imamo jednog aktivnost korisnika, bug-ova ima napretek.</p>
+<p>Uočio sam da je sama prijava bug-ova za korisnika komplikovana, &scaron;to opet značajno usporava i otežava proces podr&scaron;ke.</p>
+<p>Zato sam otvorio&nbsp;<a href="http://redmine.bring.out.ba/issues/25663">bug reporting ticket</a>. U toku jednog dana sam tu akvinost&nbsp;<a href="http://redmine.bring.out.ba/issues/25663#note-5">realizovao</a>.</p>
+<p>Treba uočiti da je za identifikaciju ovog problema najvi&scaron;e bilo zaslužno uvođenje procedure 2).</p>
+<p><span style="text-decoration: underline; font-size: medium;"><strong>7) Zaključak</strong></span></p>
+<p>Sve ove procedure same po sebi ne predstavljaju "silver bullet". Međutim, one jesu od su&scaron;tinskog značaja za projekat i postizanje dugoročnih ciljeva F18.</p>
+<p>One omogućavaju da se mnogi rizici, kojima je svaki sotfverski projekat izložen, značajno minimiziraju.</p>
+<p>Ubijeđen sam da bez ovih procedura nije moguće napraviti <strong><span style="color: #ff0000;">dobar software</span></strong>.</p>
+<p>Mislim da je kurs koji smo mi zauzeli dodatno interesantan s obzirom da se radi o projektu koji je baziran na <strong><span style="color: #ff0000;">portiranju "legacy" koda</span></strong>, te razvojnom okruženju (harbour) u kojima ove developerske procedure nisu značajno zastupljene.&nbsp;Naime, kada ruby/rails developera pitate za TDD/BDD većina će vam reći - "must-be". Kod harbour developera prakticiranje ovih developerskih metodologija je sa druge strane prava rijetkost.</p>
+<p>TDD/BDD koncept je programing language neutralan. Ali je kvaka u tome &scaron;to su te prakse puno zastupljenije kod "novih" developera a puno manje kod "old fasion" developera. Takođe, developerima programskih jezika zadnje generacije (ruby, javascript, java, erlang, C#) na raspolaganju je mali milion kvalitetnih testnih framework-a. Sa harbour-om to nije slučaj.</p>
+<p>Mi&scaron;ljenja sam da je na poslijetku ipak ključna praksa developera, te da nas u primjeni naprednih praksi i procedura razvoja software-a ne smije zaustaviti ni developersko okruženje koje ne nudi "na tacni" framework-e za taj način razvoja.&nbsp;</p>
+<p>S obzirom da se radi o procedurama koje su uvedene prije par dana, rano je govoriti njihovim efektima i uticaju na tok razvoja F18. Prije dvije hefte sam sa zabrinuto&scaron;ću konstatovao:</p>
+<blockquote class="posterous_short_quote">
+<p>Ne&scaron;to značajno ne radimo dobro. Ali &scaron;ta !?</p>
+</blockquote>
+<p>Nakon ovih promjena vratio mi se pozitivan "feeling":</p>
+<blockquote class="posterous_short_quote">
+<p>Ponovo idemo u pravom smjeru !</p>
+</blockquote>
+<p>---</p>
+<p>(*) Treba reći da su sve developerske aktivnosti u posljednjih 7 godina u domenu aktivne podr&scaron;ke proizvodu - zadovoljenje promjena u zakonskoj regulativi, "minor" nadogradnje, otklanjanje bug-ova</p>]]></content:encoded>
+	<excerpt:encoded><![CDATA[O nastanku F18 i njegovim osnovnim ciljevima sam pisao ovdje. Ovdje ću glavne principe i prakse razvoja F18 čiji je cilj da se "može" iz predhodnog članka pretvori u "jeste". 1) Agilni release management U kontekstu F18 ovo sam pomenuo prvi pu...]]></excerpt:encoded>	
+
+	<wp:post_date>Tue Dec 13 09:24:00 -0800 2011</wp:post_date>
+	<wp:post_date_gmt>%= display_date %></wp:post_date_gmt>
+	<wp:comment_status>open</wp:comment_status>
+	<wp:ping_status>open</wp:ping_status>
+	<wp:post_name>f18-development</wp:post_name>
+	<wp:status>publish</wp:status>
+	<wp:post_parent>0</wp:post_parent>
+	<wp:menu_order>0</wp:menu_order>
+	<wp:post_type>post</wp:post_type>
+	<wp:post_password></wp:post_password>
+	<wp:is_sticky>0</wp:is_sticky>
+
+	
+		<wp:comment>
+			<!-- <wp:comment_id>5</wp:comment_id> -->
+			<wp:comment_author><![CDATA[]]></wp:comment_author>
+			<wp:comment_author_email></wp:comment_author_email>
+			<wp:comment_author_url></wp:comment_author_url>
+			<wp:comment_date>Wed Dec 14 03:41:20 -0800 2011</wp:comment_date>
+			<wp:comment_date_gmt>Wed Dec 14 03:41:20 -0800 2011</wp:comment_date_gmt>
+			<wp:comment_content><![CDATA[Saša mi je na sastanku rekao da se uopšte ne slaže sa mnom, te da sam članak &quot;ružno napisao&quot;.
+
+Objasnio je da je radio na ovaj način vođen mojim pritiskom: budite nerealni (http://redmine.bring.out.ba/issues/25401#note-6)
+
+Tu sam napravio grešku, napravio sam pritisak koji je po svemu sudeći bio kontraproduktivan.
+
+Kako god bilo, iz ove perspektive je puno bitnije da razumijemo da razvoj u predhodnom periodu nije dobar, te da usvajanje praksi navedene u ovom članku vode projekat u pravom smjeru.
+
+Ponovo se pokazalo da &quot;ho-ruk&quot; sistem ne daje dobar output, koliko god truda uložili. Veliko rasipanje energije je u takvom sistemu neminovno.
+
+Kolika god frka bila, iza nas mora ostati na redmine sistemu jasna lista problema, rizika i postignuća.
+]]></wp:comment_content>
+			<wp:comment_approved>1</wp:comment_approved>
+			<wp:comment_type></wp:comment_type>
+			<wp:comment_parent>0</wp:comment_parent>
+		</wp:comment>
+	
+		<wp:comment>
+			<!-- <wp:comment_id>5</wp:comment_id> -->
+			<wp:comment_author><![CDATA[]]></wp:comment_author>
+			<wp:comment_author_email></wp:comment_author_email>
+			<wp:comment_author_url></wp:comment_author_url>
+			<wp:comment_date>Thu Dec 15 00:03:48 -0800 2011</wp:comment_date>
+			<wp:comment_date_gmt>Thu Dec 15 00:03:48 -0800 2011</wp:comment_date_gmt>
+			<wp:comment_content><![CDATA[vrlo bitno http://redmine.bring.out.ba/issues/25691
+]]></wp:comment_content>
+			<wp:comment_approved>1</wp:comment_approved>
+			<wp:comment_type></wp:comment_type>
+			<wp:comment_parent>0</wp:comment_parent>
+		</wp:comment>
+	
+</item>

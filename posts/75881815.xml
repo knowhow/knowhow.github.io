@@ -1,0 +1,129 @@
+<item>
+	<title>knowhow ERP, gdje, šta, kako</title>
+	<link>http://do-we-know-how.bring.out.ba/knowhow-erp-gdje-sta-kako</link>
+	<pubDate>Mon Oct 17 13:52:00 -0700 2011</pubDate>
+	
+	<dc:creator><![CDATA[Ernad Husremović]]></dc:creator>
+	
+	
+		<category domain="tag" nicename="developer"><![CDATA[developer]]></category>
+	
+		<category domain="tag" nicename="opensource"><![CDATA[opensource]]></category>
+	
+
+	<category><![CDATA[Uncategorized]]></category>
+
+	<category domain="category" nicename="uncategorized"><![CDATA[Uncategorized]]></category>
+
+  <guid isPermaLink="false">http://do-we-know-how.bring.out.ba/knowhow-erp-gdje-sta-kako</guid>
+	<description></description>
+	<content:encoded><![CDATA[<p><span style="text-decoration: underline; font-size: medium;"><strong>1) Principi, developerske metodologije</strong></span></p>
+<p><span style="text-decoration: underline;"><strong>redmine ticketing sistem</strong></span></p>
+<p>Primjer: Pogledajmo aktivnosti na knowhow i podprojektima tokom posljednjih dana: <a href="http://redmine.bring.out.ba/projects/knowhow/activity">http://redmine.bring.out.ba/projects/knowhow/activity</a></p>
+<p>Pogledajmo jednu od aktuelnih aktivnosti <a href="http://redmine.bring.out.ba/issues/24825">http://redmine.bring.out.ba/issues/24825</a></p>
+<p><span style="text-decoration: underline;"><strong>Svi artifakti na github-u</strong></span></p>
+<p>Svi artifakti projekta, ne samo source code, se održavaju na odgovarajućim github repos-ima. Primjer:</p>
+<ul>
+<li><a href="https://github.com/knowhow/T0_knowhow/tree/master/data/FBIH">https://github.com/knowhow/T0_knowhow/tree/master/data/FBIH</a></li>
+</ul>
+<p><strong><span style="text-decoration: underline;">Dokumentacija je bitna</span></strong></p>
+<p><a href="http://knowhow.github.com/M3_knowhow/docs/app.html">http://knowhow.github.com/M3_knowhow/docs/app.html</a><span style="font-size: x-small;"> (u gornjem desnom uglu nalazi se "jump to")</span></p>
+<p><span style="text-decoration: underline;"><strong>TDD/BDD</strong></span></p>
+<p>Dugorični cilj je "pokriti" projekte TDD / BDD testovima:</p>
+<p>Primjer: testiranje C++ source code-a:</p>
+<p><a href="http://do-we-know-how.bring.out.ba/test-driven-development-sa-c-fitnesse-cslim-c">http://do-we-know-how.bring.out.ba/test-driven-development-sa-c-fitnesse-cslim-c</a></p>
+<p><span style="text-decoration: underline;"><strong>Sve je vidljivo razvojnom timu</strong></span></p>
+<p>Kori&scaron;tenje ticketing sistema (redmine-a) i source code management systema (github <a href="http://do-we-know-how.bring.out.ba/moj-prvi-github-pull-request)">http://do-we-know-how.bring.out.ba/moj-prvi-github-pull-request)</a> obezbjeđuju kvalitetnu komunikaciju unutar tima.</p>
+<p>Potiče se <strong>blogiranje</strong> na teme koje bi mogle biti interesantne drugim članovima ili &scaron;iroj javnosti.</p>
+<p>Svaka aktivnosti na projektu se real-time de&scaron;avaju na ticketing sistemu.</p>
+<p><span style="text-decoration: underline; font-size: medium;"><strong>2) knowhow je baziran na xTuple ERP-u</strong></span></p>
+<p>xTuple reference i OpenRPT guide:</p>
+<p><a href="http://do-we-know-how.bring.out.ba/xtuple-openrpt-users-guide">http://do-we-know-how.bring.out.ba/xtuple-openrpt-users-guide</a></p>
+<p><span style="text-decoration: underline; font-size: small;"><strong>Arhitektura</strong></span></p>
+<p>xTuple arhitektura je 2-tier: klasični rich GUI klijent, database server</p>
+<p>backend je PostgreSQL Database server</p>
+<p>Intenzivno se koriste view-ovi, stored procedure, organizacija baze database schema-ma.</p>
+<p><a href="https://github.com/knowhow/xtupleserver">https://github.com/knowhow/xtupleserver</a></p>
+<p><span style="text-decoration: underline;"><strong>Rich gui client</strong></span></p>
+<p>Core klijenta je realizovano u Qt, C/C++</p>
+<p>Source code se može pogledati ovdje <a href="https://github.com/knowhow/xtuple/branches">https://github.com/knowhow/xtuple/branches</a></p>
+<p>Sadržaj pojedinih branche-ova:</p>
+<ul>
+<li>master - upstream projekt</li>
+<li>knowhow, MultiWHs - promjene rađene unutar knowhow ERP</li>
+</ul>
+<p><span style="text-decoration: underline;"><strong>xTule paketi - javascript</strong></span></p>
+<p>xTuple je iskoristio qtscript feature Qt-a za realizaciju aplikativnih modula koji oni zovu "packages".</p>
+<p>Prazan paket koji zorno pokazuje strukturu jednog xtuple/knowhow paketa:</p>
+<p><a href="https://github.com/knowhow/skeleton">https://github.com/knowhow/skeleton</a></p>
+<p>Primjer kompletnog programskog modula (POS modul) implementiranog kao package:</p>
+<p><a href="https://github.com/knowhow/xtpos/tree/knowhow">https://github.com/knowhow/xtpos/tree/knowhow</a></p>
+<p><strong><span style="text-decoration: underline;">Reporting system - OpenRPT</span></strong></p>
+<p>Gore je data referenca na OpenRPT User's manual.</p>
+<p>Fetchiranje podataka se v&scaron;i sa MetaSQL-om. Priča se svodi na najobičnij SQL. Meta SQL omogućava jednostavnu razmjenu parametara između formi i reporta.</p>
+<p>Lijepo rije&scaron;eno.</p>
+<p><span style="text-decoration: underline;"><strong>UI Forme</strong></span></p>
+<p>Klasične Qt forme koje se prave sa Qt Designer-om.&nbsp;</p>
+<p>Behaviour se implementira &nbsp;u javascript-u (packages) ili kao C++ Qt na nivou xtuple core-a.</p>
+<p>Zamisao je da aplikativni developer nema potrebu da radi na C/C++ nivou.</p>
+<p>xtops, xtte package-i kazuju da je realno moguće postići</p>
+<p><span style="text-decoration: underline;"><strong>Package update system</strong></span></p>
+<p>Bitno je naglasiti se instalacija paketa vr&scaron;i sa jednog mjesta (updater aplikacija). Sve komponente se instaliraju u bazu.</p>
+<p>Rezultat je taj dobijamo <span style="text-decoration: underline;">efekat deployment-a sličan web klijentu: instalacija se vr&scaron;i na server, svi klijenti "kupe" update paketa sa servera</span>.</p>
+<p><span style="text-decoration: underline;"><strong>xTuple gui client u brojkama</strong></span></p>
+<p>Iako nisam pobornik vrednovanja software-a po veličini source cod-a, interesantno je pogledati&nbsp;</p>
+<p>određene statistike za <a href="http://redmine.bring.out.ba/issues/24477">xtuple repozitorija</a>.</p>
+<p>Meni su najinteresantniji podaci:</p>
+<ul>
+<li>680 ui (user interface) fajlova</li>
+<li>270 OpenRPT reporta</li>
+</ul>
+<p>Inicijalni developer navodi da je period razvoja 1998-2011.</p>
+<p><span style="text-decoration: underline; font-size: medium;"><strong>3) bring.out fmk</strong></span></p>
+<p>FMK programski moduli su publikovani kao open source software&nbsp;<a href="https://github.com/bringout-fmk">https://github.com/bringout-fmk</a></p>
+<p>S obzirom da se radi o projektima koji su u aktivnom kori&scaron;tenju, sa stanovi&scaron;ta knowhow projekta, koriste se kao izvor algoritama.</p>
+<p>Primjer: <a href="https://github.com/bringout-fmk/fmk_common/tree/master/fiscal">fiscal funkcije fmk</a>&nbsp; planiramo iskoristiti za implementaciju&nbsp;<a href="http://redmine.bring.out.ba/projects/knowhow-f2/issues">F2 knowhow</a> fiskalnog modula <a href="http://redmine.bring.out.ba/projects/knowhow-f2/issues">http://redmine.bring.out.ba/projects/knowhow-f2/issues</a></p>
+<p><span style="text-decoration: underline; font-size: medium;"><strong>4)&nbsp;<a href="http://redmine.bring.out.ba/projects/knowhow-m3/issues">M3</a> mobilni klijent, <a href="http://redmine.bring.out.ba/projects/knowhow-a4/issues">A4</a> - aplikacioni server</strong></span></p>
+<p>M3 je <a href="http://developer.appcelerator.com/documentation">Titanium appcelerator mobilni klijent</a> (na&scaron;a ciljna platforma Android, ali appcelerator podržava i IOS)</p>
+<p>A4 je server-side dio mobilnog klijenta, ali je odmah predviđen kao aplikativni server knowhow.</p>
+<p>Implementiran kao node.js server</p>
+<p>Evo onoga &scaron;to je do sada realizovano:&nbsp;<a href="http://knowhow.github.com/A4_knowhow/">http://knowhow.github.com/A4_knowhow/</a></p>
+<p>Radi se o funkcijama koje putem JSON-a preuzimaju parametre aplikacije i listu artikala (slike, cijene) sa servera.&nbsp;</p>
+<p>M3, A4/M3b u konačnici trebaju implementirati sistem mobilne prodaje.&nbsp;</p>
+<p>S obzirom da imamo aktuelan ugovor sa klijentom, primarni cilj bring.out je implementacija sistema&nbsp;mobilnih narudžbi za veletrgovca cigarama.</p>
+<p>Trenutno stanje:</p>
+<ul>
+<li>Prototip M3 napravljen</li>
+<li>Osnovne funkcije A4/M3b su realizovane.&nbsp;</li>
+</ul>
+<p>Reporting dio nije realizovan. Plan je da se taj dio implementira kao xtuple/knowhow javascript package.&nbsp;</p>
+<p>Razvoj M3 započet je na <a href="http://redmine.bring.out.ba/projects/mobile-dev">mobile-dev</a> projektu.</p>
+<p>Sa&scaron;a je napravio jedan prolaz kroz&nbsp;<a href="http://do-we-know-how.bring.out.ba/kratki-prikaz-mobilne-aplikacije-m3-mobilne-n  ">screen-ove aplikacije</a>.</p>
+<p>Evo par ticketa koji trebali dati predstavu detaljima razvoja M3 klijenta:</p>
+<ul>
+<li><a href="http://redmine.bring.out.ba/issues/24309">http://redmine.bring.out.ba/issues/24309</a></li>
+<li><a href="http://redmine.bring.out.ba/issues/24424">http://redmine.bring.out.ba/issues/24424</a></li>
+<li><a href="http://redmine.bring.out.ba/issues/24326">http://redmine.bring.out.ba/issues/24326</a></li>
+<li><a href="http://redmine.bring.out.ba/issues/24437">http://redmine.bring.out.ba/issues/24437</a></li>
+</ul>
+<ul>
+</ul>
+<p><span style="text-decoration: underline;"><strong><span style="font-size: medium;">5) Licence</span></strong></span></p>
+<p>M3 i A4 su projekti koje je inicirao "bring.out". Licenca je <a href="https://github.com/knowhow/T0_knowhow/blob/master/legal/LICENSE_CPAL_bring.out_knowhow.md">CPAL bring.out knowhow bring.out</a></p>
+<p>xtuple, xtpos, xtte su projekti koje je inicirao OpenMFG LLC. Licenca je CPAL <a href="http://www.xtuple.com/CPAL">OpenMFG LLC xTuple PostBooks edition</a>.</p>]]></content:encoded>
+	<excerpt:encoded><![CDATA[1) Principi, developerske metodologije redmine ticketing sistem Primjer: Pogledajmo aktivnosti na knowhow i podprojektima tokom posljednjih dana: http://redmine.bring.out.ba/projects/knowhow/activity Pogledajmo jednu od aktuelnih aktivnosti http:/...]]></excerpt:encoded>	
+
+	<wp:post_date>Mon Oct 17 13:52:00 -0700 2011</wp:post_date>
+	<wp:post_date_gmt>%= display_date %></wp:post_date_gmt>
+	<wp:comment_status>open</wp:comment_status>
+	<wp:ping_status>open</wp:ping_status>
+	<wp:post_name>knowhow-erp-gdje-sta-kako</wp:post_name>
+	<wp:status>publish</wp:status>
+	<wp:post_parent>0</wp:post_parent>
+	<wp:menu_order>0</wp:menu_order>
+	<wp:post_type>post</wp:post_type>
+	<wp:post_password></wp:post_password>
+	<wp:is_sticky>0</wp:is_sticky>
+
+	
+</item>

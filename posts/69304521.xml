@@ -1,0 +1,72 @@
+<item>
+	<title>Mac produktivnost: stvar jednostavno ... radi, Time machine backup</title>
+	<link>http://do-we-know-how.bring.out.ba/mac-os-x-produktivnosti-stvar-radi</link>
+	<pubDate>Fri Sep 09 09:03:00 -0700 2011</pubDate>
+	
+	<dc:creator><![CDATA[Ernad Husremović]]></dc:creator>
+	
+	
+		<category domain="tag" nicename="developer"><![CDATA[developer]]></category>
+	
+		<category domain="tag" nicename="macosx"><![CDATA[macosx]]></category>
+	
+		<category domain="tag" nicename="toolset"><![CDATA[toolset]]></category>
+	
+
+	<category><![CDATA[Uncategorized]]></category>
+
+	<category domain="category" nicename="uncategorized"><![CDATA[Uncategorized]]></category>
+
+  <guid isPermaLink="false">http://do-we-know-how.bring.out.ba/mac-os-x-produktivnosti-stvar-radi</guid>
+	<description></description>
+	<content:encoded><![CDATA[<p>Pitam neki dana Sa&scaron;u:</p>
+<blockquote class="posterous_short_quote">
+<p>Nakon mjesec dana rada, &scaron;ta misli&scaron; da li je tvoja produktivnost prilikom developmenta značajno povećana u odnosu na rad PC-em ?</p>
+</blockquote>
+<p>Sa&scaron;a je odgovorio sa svojom prepoznatljivom "nemam pojma" opaskom:</p>
+<blockquote class="posterous_short_quote">
+<p>Nemam pojma, samo znam da nisam imao nikakvih problema pri radu. S obzirom da ovo nikada nisam radio na PC/Ubuntu ili PC/Windows, ne znam.</p>
+</blockquote>
+<p>U stvari, dobio sam od njega traženi odgovor. Ipak Sale ima nekog pojma :).&nbsp;</p>
+<p><strong>"Nisam imao problema ..." &nbsp;</strong>su magične riječi. Mac te može nanervirati, ali sa njim može&scaron; mjesec dana raditi bez potrebe za restartom.</p>
+<p>Kako smo potegli tu priču, sjetio sam da je jedna stvar kod Sa&scaron;e ostala nedovr&scaron;ena - backup njegove developerske ma&scaron;ine.</p>
+<p><!--more--></p>
+<p><span style="text-decoration: underline;"><strong>Time Machine backup</strong></span></p>
+<p>Kupio sam danas externi HDD(*). Stvar vi&scaron;e i nije tako skupa da bi se čovjek mislio da li da je kupi ili ne. &nbsp;500 GB &nbsp;HDD ko&scaron;ta cca 100 KM + PDV.</p>
+<p>&Scaron;teta par izgubljenih dana developera &nbsp;na pode&scaron;enje sistema je sigurno veća. Nekada nenadoknadiva.</p>
+<p>Evo kako se backup pode&scaron;ava.</p>
+<p><iframe src="http://www.youtube.com/embed/rocHWqUGAQA?wmode=transparent" allowfullscreen frameborder="0" height="417" width="500"></iframe></p>
+<p>Do bola jednostavno. To je magija Mac-a: <strong>jednostavno + radi</strong>.</p>
+<p>---</p>
+<p>(*) Istina neću ga Saletu dati, nego ću mu proslijediti disk koji sam ja do sada koristio za ove backup-e. Kapacitet mu je isti ali ovaj novi tako dobro izgleda da se ne mogu odvojiti od njega. Sav se presijava ... &nbsp;Ne kaže džaba: "&Scaron;areno i budali drago ..."</p>
+<p>&nbsp;</p>]]></content:encoded>
+	<excerpt:encoded><![CDATA[Pitam neki dana Sašu: Nakon mjesec dana rada, šta misliš da li je tvoja produktivnost prilikom developmenta značajno povećana u odnosu na rad PC-em ? Saša je odgovorio sa svojom prepoznatljivom "nemam pojma" opaskom: Nemam pojma, samo znam d...]]></excerpt:encoded>	
+
+	<wp:post_date>Fri Sep 09 09:03:00 -0700 2011</wp:post_date>
+	<wp:post_date_gmt>%= display_date %></wp:post_date_gmt>
+	<wp:comment_status>open</wp:comment_status>
+	<wp:ping_status>open</wp:ping_status>
+	<wp:post_name>mac-os-x-produktivnosti-stvar-radi</wp:post_name>
+	<wp:status>publish</wp:status>
+	<wp:post_parent>0</wp:post_parent>
+	<wp:menu_order>0</wp:menu_order>
+	<wp:post_type>post</wp:post_type>
+	<wp:post_password></wp:post_password>
+	<wp:is_sticky>0</wp:is_sticky>
+
+	
+		<wp:comment>
+			<!-- <wp:comment_id>5</wp:comment_id> -->
+			<wp:comment_author><![CDATA[]]></wp:comment_author>
+			<wp:comment_author_email></wp:comment_author_email>
+			<wp:comment_author_url></wp:comment_author_url>
+			<wp:comment_date>Tue Sep 20 00:31:58 -0700 2011</wp:comment_date>
+			<wp:comment_date_gmt>Tue Sep 20 00:31:58 -0700 2011</wp:comment_date_gmt>
+			<wp:comment_content><![CDATA[I Sale kaže da je jednostavno http://vsasa.bring.out.ba/time-machine-backup
+]]></wp:comment_content>
+			<wp:comment_approved>1</wp:comment_approved>
+			<wp:comment_type></wp:comment_type>
+			<wp:comment_parent>0</wp:comment_parent>
+		</wp:comment>
+	
+</item>

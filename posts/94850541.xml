@@ -1,0 +1,51 @@
+<item>
+	<title>Misli kao programer</title>
+	<link>http://do-we-know-how.bring.out.ba/misli-kao-programer</link>
+	<pubDate>Wed Jan 18 09:45:00 -0800 2012</pubDate>
+	
+	<dc:creator><![CDATA[Ernad Husremović]]></dc:creator>
+	
+	
+		<category domain="tag" nicename="developer"><![CDATA[developer]]></category>
+	
+		<category domain="tag" nicename="f18_knowhow"><![CDATA[f18_knowhow]]></category>
+	
+		<category domain="tag" nicename="methodology"><![CDATA[methodology]]></category>
+	
+
+	<category><![CDATA[Uncategorized]]></category>
+
+	<category domain="category" nicename="uncategorized"><![CDATA[Uncategorized]]></category>
+
+  <guid isPermaLink="false">http://do-we-know-how.bring.out.ba/misli-kao-programer</guid>
+	<description></description>
+	<content:encoded><![CDATA[<p>Jedan moj kolega mi je davno rekao:</p>
+<blockquote class="posterous_short_quote">
+<p>Dobar programer mora biti lijen. Lijen da ponavlja stvari.</p>
+</blockquote>
+<p>I doista je u pravu. Ako uočite da se neku trivijalnu stvar vi ili korisnik ili va&scaron; kolega serviser puno puta ponavljate, obavezno sebi trebate postaviti pitanje:</p>
+<blockquote class="posterous_short_quote">
+<p>Može li se ovo izbjeći ? Može li se ovo drugačije rije&scaron;iti ?</p>
+</blockquote>
+<p>Gledajući jednu opciju F18 u koja <a href="http://redmine.bring.out.ba/issues/26266">pokreće eksterni libreoffice/openoffice</a>, uočio sam da je to rije&scaron;eno tako da je kod svakog korisnika potrebno podesiti parametar kojim se defini&scaron;e put do eksterne aplikacije.</p>
+<p>Kada ima&scaron; 20 korisnika na jednom mjestu, onda takvo pode&scaron;enje postaje značajan posao za servisera(*).</p>
+<p>Nakon kraktke analize utvrdio sam da je moguće taj parametar eliminisati.</p>
+<p>Serviser zadovoljniji, korisnik zadovoljniji. Čak je i developer na dobitku jer se u konačnici dobija kod koji ima manje koda za održavanje (dio za upravljanje nepotrebnim parametrom se isključuje).</p>
+<p>---</p>
+<p>(*) Dugoročno gledajući za veći broj korisnika na duži period, na stotine nepotrebnih serviser-sahata.</p>]]></content:encoded>
+	<excerpt:encoded><![CDATA[Jedan moj kolega mi je davno rekao: Dobar programer mora biti lijen. Lijen da ponavlja stvari. I doista je u pravu. Ako uočite da se neku trivijalnu stvar vi ili korisnik ili vaš kolega serviser puno puta ponavljate, obavezno sebi trebate postavit...]]></excerpt:encoded>	
+
+	<wp:post_date>Wed Jan 18 09:45:00 -0800 2012</wp:post_date>
+	<wp:post_date_gmt>%= display_date %></wp:post_date_gmt>
+	<wp:comment_status>open</wp:comment_status>
+	<wp:ping_status>open</wp:ping_status>
+	<wp:post_name>misli-kao-programer</wp:post_name>
+	<wp:status>publish</wp:status>
+	<wp:post_parent>0</wp:post_parent>
+	<wp:menu_order>0</wp:menu_order>
+	<wp:post_type>post</wp:post_type>
+	<wp:post_password></wp:post_password>
+	<wp:is_sticky>0</wp:is_sticky>
+
+	
+</item>

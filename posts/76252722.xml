@@ -1,0 +1,76 @@
+<item>
+	<title>&quot;knowhow ERP&quot;  i industrijski standardi</title>
+	<link>http://do-we-know-how.bring.out.ba/open-source-software-i-industrijski-standardi</link>
+	<pubDate>Thu Oct 20 04:17:00 -0700 2011</pubDate>
+	
+	<dc:creator><![CDATA[Ernad Husremović]]></dc:creator>
+	
+	
+		<category domain="tag" nicename="developer"><![CDATA[developer]]></category>
+	
+		<category domain="tag" nicename="knowhow_erp"><![CDATA[knowhow_erp]]></category>
+	
+		<category domain="tag" nicename="opensource"><![CDATA[opensource]]></category>
+	
+
+	<category><![CDATA[Uncategorized]]></category>
+
+	<category domain="category" nicename="uncategorized"><![CDATA[Uncategorized]]></category>
+
+  <guid isPermaLink="false">http://do-we-know-how.bring.out.ba/open-source-software-i-industrijski-standardi</guid>
+	<description></description>
+	<content:encoded><![CDATA[<p>Na svom blogu sam napisao jedan članak o <a href="http://hernad.bring.out.ba/open-source-software-i-industrijski-standardi">OSS-u i industrijskim standarima</a>. To me je navelo da navedem alate i tehnologije koje koristimo u "knowhow ERP" sa odgovarajućim licencama.</p>
+<div>
+<p style="font-size: 13px;"><!--more--><span style="text-decoration: underline; font-size: medium;"><strong>Mobilni klijent knowhow ERP</strong></span></p>
+<p style="font-size: 13px;">Razvojna platforma:&nbsp;<a href="https://github.com/appcelerator">Appcelerator titanium</a>. Licenca:&nbsp;<a href="https://github.com/appcelerator/titanium_mobile/blob/master/LICENSE">Apache V2.0</a></p>
+<p style="font-size: 13px;">Programski jezik koji koristi application developer:&nbsp;<a href="http://en.wikipedia.org/wiki/JavaScript">javascript</a>.</p>
+<p style="font-size: 13px;">Podržane platforme <a href="http://en.wikipedia.org/wiki/Android_(operating_system)">Google Android OS</a>&nbsp;(licenca Apache v2.0), te <a href="http://en.wikipedia.org/wiki/IOS">Apple iOS</a>&nbsp;(*).</p>
+<p style="font-size: 13px;"><span style="text-decoration: underline; font-size: medium;"><strong>Database</strong></span></p>
+<p style="font-size: 13px;"><span style="text-decoration: underline;"><strong>a) Database server knowhow ERP</strong></span></p>
+<p style="font-size: 13px;">Server:&nbsp;<a href="http://www.postgresql.org/">PostgreSQL</a>. Licenca:&nbsp;<a href="http://www.postgresql.org/about/licence">liberalna BSD/MIT licenca</a>.</p>
+<p style="font-size: 13px;">Bazne tehnologije:&nbsp;<a href="http://en.wikipedia.org/wiki/Sql">SQL</a></p>
+<p style="font-size: 13px;">Database developer, stored procedure language:&nbsp;<a href="http://www.postgresql.org/docs/9.1/static/plpgsql.html">PL/PGSQL</a></p>
+<p style="font-size: 13px;"><a href="http://www.postgresql.org/docs/9.1/static/plpgsql.html"></a>Podržane platforme: 'đe god ima&nbsp;<a href="http://en.wikipedia.org/wiki/C_(programming_language)">C-a</a></p>
+<p style="font-size: 13px;"><span style="text-decoration: underline;"><strong>b) Mobilni client local database</strong></span></p>
+<p style="font-size: 13px;"><a href="http://www.sqlite.org/">SQlite</a>, licenca <a href="http://www.sqlite.org/copyright.html">public domain</a>.</p>
+<p style="font-size: 13px;"><span style="text-decoration: underline; font-size: medium;"><strong>Rich client knowhow ERP</strong></span></p>
+<p style="font-size: 13px;">Application developer:&nbsp;<a href="http://qt-project.org">Qt framework</a>, javascript Qt implementacija -&nbsp;<a href="http://en.wikipedia.org/wiki/QtScript">qtscript</a>.</p>
+<p style="font-size: 13px;">Licenca za Qt framework i alate:&nbsp;<a href="http://en.wikipedia.org/wiki/QtScript">LGPL</a></p>
+<p style="font-size: 13px;">Core application developer: Qt/C++</p>
+<p style="font-size: 13px;">xtuple core licenca:&nbsp;<a href="http://www.xtuple.com/CPAL">xTuple CPAL</a></p>
+<p style="font-size: 13px;">Alati za razvoj, dio Qt framework-a:</p>
+<ol style="font-size: 13px;">
+<li><a href="http://doc.qt.nokia.com/latest/linguist-manual.html">QtLinguist</a></li>
+<li><a href="http://qt.nokia.com/products/developer-tools/">QtDesigner</a></li>
+<li><a href="http://qt.nokia.com/products/developer-tools/">QtCreator</a></li>
+</ol>
+<p style="font-size: 13px;">xTuple/knowhow interni report engine:&nbsp;<a href="https://github.com/knowhow/openrpt">xTuple OpenRPT</a>. Licenca:&nbsp;<a href="https://github.com/knowhow/openrpt/blob/master/COPYING">LGPL</a></p>
+<p style="font-size: 13px;">Ostale reporting opcije:&nbsp;</p>
+<ul style="font-size: 13px;">
+<li>Pentaho BI,&nbsp;<a href="http://en.wikipedia.org/wiki/Pentaho">Mozila public license 1.1</a></li>
+<li>JasperReports BI,&nbsp;<a href="http://www.jaspersoft.com/editions">GPL</a></li>
+</ul>
+<p style="font-size: 13px;"><span style="text-decoration: underline; font-size: medium;"><strong>A4 application server</strong></span></p>
+<p style="font-size: 13px;"><a href="http://nodejs.org/">node.js</a>, Licenca:&nbsp;<a href="https://github.com/joyent/node/blob/master/LICENSE">MIT</a></p>
+<p style="font-size: 13px;">Ključne komponente: google&nbsp;<a href="http://code.google.com/p/v8/">v8 javascript engine</a>, licenca&nbsp;<a href="http://code.google.com/p/v8/http://www.opensource.org/licenses/bsd-license.php">BSD</a>.</p>
+<p style="font-size: 13px;"><span style="text-decoration: underline; font-size: medium;"><strong>Rezime</strong></span></p>
+<p style="font-size: 13px;">Svi alati, od najvi&scaron;eg do najnižeg nivoa open source software izdati pod "<a href="http://www.opensource.org/licenses">OSI approved" licencama</a>.</p>
+<p style="font-size: 13px;">---</p>
+<p style="font-size: 13px;">(*) Postoji i podr&scaron;ka za druge mobilne OS-ove, ali to u ovom trenutku nije predmet interesovanja knowhow ERP pa neću navoditi</p>
+</div>]]></content:encoded>
+	<excerpt:encoded><![CDATA[Na svom blogu sam napisao jedan članak o OSS-u i industrijskim standarima. To me je navelo da navedem alate i tehnologije koje koristimo u "knowhow ERP" sa odgovarajućim licencama. Mobilni klijent knowhow ERP Razvojna platforma: Appcelerator titan...]]></excerpt:encoded>	
+
+	<wp:post_date>Thu Oct 20 04:17:00 -0700 2011</wp:post_date>
+	<wp:post_date_gmt>%= display_date %></wp:post_date_gmt>
+	<wp:comment_status>open</wp:comment_status>
+	<wp:ping_status>open</wp:ping_status>
+	<wp:post_name>open-source-software-i-industrijski-standardi</wp:post_name>
+	<wp:status>publish</wp:status>
+	<wp:post_parent>0</wp:post_parent>
+	<wp:menu_order>0</wp:menu_order>
+	<wp:post_type>post</wp:post_type>
+	<wp:post_password></wp:post_password>
+	<wp:is_sticky>0</wp:is_sticky>
+
+	
+</item>

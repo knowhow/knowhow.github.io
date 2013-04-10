@@ -1,0 +1,60 @@
+<item>
+	<title>developer cheat sheets </title>
+	<link>http://do-we-know-how.bring.out.ba/developer-cheatsheets</link>
+	<pubDate>Mon Sep 12 00:35:00 -0700 2011</pubDate>
+	
+	<dc:creator><![CDATA[Ernad Husremović]]></dc:creator>
+	
+	
+		<category domain="tag" nicename="developer"><![CDATA[developer]]></category>
+	
+		<category domain="tag" nicename="productivity"><![CDATA[productivity]]></category>
+	
+
+	<category><![CDATA[Uncategorized]]></category>
+
+	<category domain="category" nicename="uncategorized"><![CDATA[Uncategorized]]></category>
+
+  <guid isPermaLink="false">http://do-we-know-how.bring.out.ba/developer-cheatsheets</guid>
+	<description></description>
+	<content:encoded><![CDATA[<p>"Cheatsheets" su dokumenti koji daju pregled glavnih komandi određene aplikacije, framework-a ...</p>
+<p>Ovo je jedan dobar <a href="https://github.com/AlexZeitler/gitcheatsheet/raw/master/gitcheatsheet.pdf">git cheatsheet</a>. Međutim, ono pored ovakvih, grafički "nalickanih" cheatsheet-ova (koji su naravno super), Chris Wanstrath-ova (alias defunkt) <a href="https://github.com/defunkt/cheat">mala ruby aplikacija cheat</a> je genijalna stvar. Jednostavna do boli.</p>
+<p><!--more-->Instalacija:</p>
+<div class="CodeRay">
+  <div class="code"><pre>rvm install 1.9.2 # ako imate instaliran rvm
+gem install cheat</pre></div>
+</div>
+
+<p>Kori&scaron;tenje:</p>
+<div class="CodeRay">
+  <div class="code"><pre>cheat sheets # prikaži sve dostupne cheat sheets 
+cheat asciidoc 
+cheat ruby 
+cheat sed 
+cheat chromium
+cheat bash
+cheat regex | grep -A1 -B5 multi</pre></div>
+</div>
+
+<p><a href="https://github.com/defunkt">defunkt</a> je poznato ime u ruby svijetu. Jedan je od vodećih developera u github-u.</p>
+<p>Objavio je mali milion opensource projekata. Jedan od najpoznatijih veoma ra&scaron;irenih je <a href="https://github.com/defunkt/resque">resque</a> work queue(*).&nbsp;</p>
+<p>Interesantno je koliko ta nova generacija developera forsira jednostavna rje&scaron;enja,&nbsp; rad na konzoli.</p>
+<p>Microsoft Visual studio IDE !? Ma bjaaži ... vim, konzola, grep to su za njih glavna ubojita oružja. Prosto im zavidim na njihovoj pameti i kreativnosti.</p>
+<p>---</p>
+<p>(*) dovoljno je pogledati "watch" i "fork" cifre ovog projekta.</p>]]></content:encoded>
+	<excerpt:encoded><![CDATA["Cheatsheets" su dokumenti koji daju pregled glavnih komandi određene aplikacije, framework-a ... Ovo je jedan dobar git cheatsheet. Međutim, ono pored ovakvih, grafički "nalickanih" cheatsheet-ova (koji su naravno super), Chris Wanstrath-ova (ali...]]></excerpt:encoded>	
+
+	<wp:post_date>Mon Sep 12 00:35:00 -0700 2011</wp:post_date>
+	<wp:post_date_gmt>%= display_date %></wp:post_date_gmt>
+	<wp:comment_status>open</wp:comment_status>
+	<wp:ping_status>open</wp:ping_status>
+	<wp:post_name>developer-cheatsheets</wp:post_name>
+	<wp:status>publish</wp:status>
+	<wp:post_parent>0</wp:post_parent>
+	<wp:menu_order>0</wp:menu_order>
+	<wp:post_type>post</wp:post_type>
+	<wp:post_password></wp:post_password>
+	<wp:is_sticky>0</wp:is_sticky>
+
+	
+</item>

@@ -1,0 +1,98 @@
+<item>
+	<title>Eksterni monitor za macbook</title>
+	<link>http://do-we-know-how.bring.out.ba/eksterni-monitor-za-macbook</link>
+	<pubDate>Sun Aug 14 03:28:00 -0700 2011</pubDate>
+	
+	<dc:creator><![CDATA[Saša Vranić]]></dc:creator>
+	
+	
+		<category domain="tag" nicename="macosx"><![CDATA[macosx]]></category>
+	
+		<category domain="tag" nicename="user"><![CDATA[user]]></category>
+	
+
+	<category><![CDATA[Uncategorized]]></category>
+
+	<category domain="category" nicename="uncategorized"><![CDATA[Uncategorized]]></category>
+
+  <guid isPermaLink="false">http://do-we-know-how.bring.out.ba/eksterni-monitor-za-macbook</guid>
+	<description></description>
+	<content:encoded><![CDATA[<p>Na mom macbook-u postoji kod mini-dvi port odmah do usb konektora. Taj port nam omogućava da koristimo eksterni monitor.</p>
+<p>Sve &scaron;to treba da se nabavi je konverter mini-dvi to vga ili dvi. Ja sam taj konektor prona&scaron;ao na eBay-u za nekih 5 dolara.</p>
+<p><!--more--></p>
+<p><strong>Kako napraviti pode&scaron;enja?</strong></p>
+<p>Mac me odu&scaron;evio (opet) sa svojom filozofijom, naravno pozitivno, tako da sam eksterni monitor spojio bez ikakvih frustracija. Govorim frustracija zato &scaron;to sam se godinama mučio sam nVidia i ATI kontrol panelima i pode&scaron;enjima za dual monitore itd...</p>
+<p>Ovdje je to apple napravio jako elegantno.</p>
+<p>Nakon &scaron;to smo spojili eksterni monitor putem konvertera odmah vidimo da smo dobili i na monitoru i na lcd-u macbook-a identičan ekran. Stvar radi, odmah za početak :)</p>
+<p>Eh... idemo dalje. Prvo &scaron;to treba da uradimo je, otići u system preferences te odabrati <strong>Monitors</strong>. Nakon &scaron;to smo odabrali odmah nam se otvaraju dva prozora sa pode&scaron;enjima</p>
+<ul>
+<li><div class='p_embed p_image_embed'>
+<a href="http://getfile2.posterous.com/getfile/files.posterous.com/temp-2011-08-14/CycokEdiFazganufnEIigGeByFDHFuGvEqnsvEBJgklhfClcouEkutHdyrcm/color_lcd_disp.png.scaled1000.png"><img alt="Color_lcd_disp" height="378" src="http://getfile4.posterous.com/getfile/files.posterous.com/temp-2011-08-14/CycokEdiFazganufnEIigGeByFDHFuGvEqnsvEBJgklhfClcouEkutHdyrcm/color_lcd_disp.png.scaled500.png" width="500" /></a>
+</div>
+<div class='p_embed p_image_embed'>
+<a href="http://getfile9.posterous.com/getfile/files.posterous.com/temp-2011-08-14/gqefpvHxwweDrzlFjznjhpwsuaEskIhxBksfxbhEyykkqcwtwoxfvgnwFlch/vga_disp.png.scaled1000.png"><img alt="Vga_disp" height="366" src="http://getfile4.posterous.com/getfile/files.posterous.com/temp-2011-08-14/gqefpvHxwweDrzlFjznjhpwsuaEskIhxBksfxbhEyykkqcwtwoxfvgnwFlch/vga_disp.png.scaled500.png" width="500" /></a>
+</div>
+VGA display - to su nam pode&scaron;enja za eksterni monitor, jer sam ga spojio putem VGA kabla</li>
+<li>LCD display - to su nam pode&scaron;enja samog lcd displeya na macbook-u</li>
+</ul>
+<p>Na VGA display podesimo željenu rezoluciju, ja sam stavio na najveću jer mi to monitor podržava, na LCD display-u također vratim na najveću rezoluciju. Zatim na VGA display postavkama idemo na karticu <strong>Arrangement</strong> te isljučimo opciju <strong>Mirror displays</strong>, ba&scaron; kao na sljedećoj slici:</p>
+<p><div class='p_embed p_image_embed'>
+<a href="http://getfile6.posterous.com/getfile/files.posterous.com/temp-2011-08-14/wybkiabukJDBbxAmxszheHcCIyzbCuzsfGdiyzzncjvlCzertEzzIrtvftsj/vga_arrangement.png.scaled1000.png"><img alt="Vga_arrangement" height="367" src="http://getfile3.posterous.com/getfile/files.posterous.com/temp-2011-08-14/wybkiabukJDBbxAmxszheHcCIyzbCuzsfGdiyzzncjvlCzertEzzIrtvftsj/vga_arrangement.png.scaled500.png" width="500" /></a>
+</div>
+Ostao je samo jo&scaron; jedan korak do finalnog pode&scaron;enja... Naime, jo&scaron; nam je LCD display primarni display, te jo&scaron; sve menije gledamo na samom macbook-u. Sve &scaron;to treba da uradimo je da zgrabimo i prevučemo mali bijeli kvadratić u ovim prezentacijama monitora (plavim) i prevučemo ga na na&scaron; VGA display, ba&scaron; kao &scaron;to sam to ja uradio i prikazao na ovoj slici:</p>
+<p><div class='p_embed p_image_embed'>
+<a href="http://getfile5.posterous.com/getfile/files.posterous.com/temp-2011-08-14/zChhJoftbanmgaIyCkgfvJFCAHAzGrDIrFjpueFsyHzymvpFhphAkwamepwz/vga_arrangement_02.png.scaled1000.png"><img alt="Vga_arrangement_02" height="365" src="http://getfile1.posterous.com/getfile/files.posterous.com/temp-2011-08-14/zChhJoftbanmgaIyCkgfvJFCAHAzGrDIrFjpueFsyHzymvpFhphAkwamepwz/vga_arrangement_02.png.scaled500.png" width="500" /></a>
+</div>
+</p>
+<p>Također, ja sam uključio opciju <strong>Show displays in menu bar</strong>, te sada na glavnom meniju uvijek imam dostupne opcije za baratanje sa monitorima</p>
+<p><div class='p_embed p_image_embed'>
+<img alt="Monitor_dock" height="328" src="http://getfile2.posterous.com/getfile/files.posterous.com/temp-2011-08-14/ipJdiufeEJqrIyaAFwymECCJioIapwksrslIlEqlBiqEmCvpsfsEqfowJGxo/monitor_dock.png.scaled500.png" width="319" />
+</div>
+<strong>Dodatna testiranja</strong></p>
+<p>Testirao sam sada situaciju da iskopčam ovaj konverter za VGA kabl (recimo da nosim macbook), nakon isključenja na LCD monitoru se automatski vrate sve postavke menija itd... uključujući i ispravnu rezoluciju.</p>
+<p>Kada vratim koverter nazad, za par sekundi se izvr&scaron;i automatska detekcija, te se menij opet vrati na VGA display itd...</p>
+<p>Jako jako dobro odrađeno.</p>]]></content:encoded>
+	<excerpt:encoded><![CDATA[Na mom macbook-u postoji kod mini-dvi port odmah do usb konektora. Taj port nam omogućava da koristimo eksterni monitor. Sve što treba da se nabavi je konverter mini-dvi to vga ili dvi. Ja sam taj konektor pronašao na eBay-u za nekih 5 dolara. Kak...]]></excerpt:encoded>	
+
+	<wp:post_date>Sun Aug 14 03:28:00 -0700 2011</wp:post_date>
+	<wp:post_date_gmt>%= display_date %></wp:post_date_gmt>
+	<wp:comment_status>open</wp:comment_status>
+	<wp:ping_status>open</wp:ping_status>
+	<wp:post_name>eksterni-monitor-za-macbook</wp:post_name>
+	<wp:status>publish</wp:status>
+	<wp:post_parent>0</wp:post_parent>
+	<wp:menu_order>0</wp:menu_order>
+	<wp:post_type>post</wp:post_type>
+	<wp:post_password></wp:post_password>
+	<wp:is_sticky>0</wp:is_sticky>
+
+	
+		<wp:comment>
+			<!-- <wp:comment_id>5</wp:comment_id> -->
+			<wp:comment_author><![CDATA[]]></wp:comment_author>
+			<wp:comment_author_email></wp:comment_author_email>
+			<wp:comment_author_url></wp:comment_author_url>
+			<wp:comment_date>Tue Sep 20 00:39:25 -0700 2011</wp:comment_date>
+			<wp:comment_date_gmt>Tue Sep 20 00:39:25 -0700 2011</wp:comment_date_gmt>
+			<wp:comment_content><![CDATA[Vjeruj da sam te juče htio pitati kako si ovo podesio.]]></wp:comment_content>
+			<wp:comment_approved>1</wp:comment_approved>
+			<wp:comment_type></wp:comment_type>
+			<wp:comment_parent>0</wp:comment_parent>
+		</wp:comment>
+	
+		<wp:comment>
+			<!-- <wp:comment_id>5</wp:comment_id> -->
+			<wp:comment_author><![CDATA[]]></wp:comment_author>
+			<wp:comment_author_email></wp:comment_author_email>
+			<wp:comment_author_url></wp:comment_author_url>
+			<wp:comment_date>Tue Sep 20 00:40:53 -0700 2011</wp:comment_date>
+			<wp:comment_date_gmt>Tue Sep 20 00:40:53 -0700 2011</wp:comment_date_gmt>
+			<wp:comment_content><![CDATA[Ovo su definitivno članci za http://do-we-know-how.bring.out.ba
+
+Ima li posterous mogućnost da uradiš pomjeranje članka ? Ako ima, de živ bio , pomjeri ga. ]]></wp:comment_content>
+			<wp:comment_approved>1</wp:comment_approved>
+			<wp:comment_type></wp:comment_type>
+			<wp:comment_parent>0</wp:comment_parent>
+		</wp:comment>
+	
+</item>

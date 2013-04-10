@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:excerpt="http://wordpress.org/export/1.0/excerpt/"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:wp="http://wordpress.org/export/1.0/"
+>
+
+<channel>
+	<title>Do we know how to make a good software ?</title>
+	<link></link>
+	<description></description>
+	<pubDate>Sun May 29 03:21:12 -0700 2011</pubDate>
+	<generator>http://posterous.com</generator>
+	<language>en</language>
+	<wp:wxr_version>1.0</wp:wxr_version>
+	<wp:base_site_url>http://do-we-know-how.bring.out.ba</wp:base_site_url>
+	<wp:base_blog_url>http://do-we-know-how.bring.out.ba</wp:base_blog_url>
+	
+	<image>
+		<url>http://files.posterous.com/user_profile_pics/1848403/gravatar.jpeg</url>
+		<title>Do we know how to make a good software ?</title>
+		<link>http://do-we-know-how.bring.out.ba</link>
+	</image>
+	

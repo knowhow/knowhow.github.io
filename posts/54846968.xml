@@ -1,0 +1,110 @@
+<item>
+	<title>Mac OS X za Bosance</title>
+	<link>http://do-we-know-how.bring.out.ba/macosx-za-bosanca</link>
+	<pubDate>Sun May 29 06:05:00 -0700 2011</pubDate>
+	
+	<dc:creator><![CDATA[Ernad Husremović]]></dc:creator>
+	
+	
+		<category domain="tag" nicename="bosanac"><![CDATA[bosanac]]></category>
+	
+		<category domain="tag" nicename="macosx"><![CDATA[macosx]]></category>
+	
+		<category domain="tag" nicename="user"><![CDATA[user]]></category>
+	
+		<category domain="tag" nicename="video_clip"><![CDATA[video_clip]]></category>
+	
+
+	<category><![CDATA[Uncategorized]]></category>
+
+	<category domain="category" nicename="uncategorized"><![CDATA[Uncategorized]]></category>
+
+  <guid isPermaLink="false">http://do-we-know-how.bring.out.ba/macosx-za-bosanca</guid>
+	<description></description>
+	<content:encoded><![CDATA[<div>Raspored tipki na Mac-u je totalno različit u odnosu na PC. Do znakova kao &scaron;to su &nbsp;"@", "|", "\", "^", "DEL" fakat nije lahko doći.&nbsp;</div>
+<p />
+<div>Desni klik na mi&scaron;u ?!</div>
+<p />
+<div>Mac mouse hardware nema fizički dugme za desni klik ko PC, dok mnoge aplikacije koje koristim, kao &scaron;to je npr. zimbra webmail intenzivno koriste desni klik.&nbsp;</div>
+<p />
+<div>U ovom videu sam prikazao &nbsp;način kori&scaron;tenja tastature i mi&scaron;a na Mac-u.</div>
+<p />
+<div><iframe src="http://www.youtube.com/embed/MVPoDAiLlNI?wmode=transparent" allowfullscreen frameborder="0" height="417" width="500"></iframe></div>
+<div><!--more--></div>
+<div>Pisanje bilje&scaron;ke na ovu temu: <a href="https://gist.github.com/997743">https://gist.github.com/997743</a></div>
+<p />
+<div><span style="text-decoration: underline;"><strong>Publikovanje videa na youtube</strong></span></div>
+<p />
+<div>Screencast koji sam napravio quicktime-om (,mov fajl) sam direktno publikovao na youtube. Međutim, dobio video na youtube-u nije imao zvuka.</div>
+<p />
+<div>Nakon toga sam importovao taj mov u iMovie (*) u uradio publish direktno iz iMovie-a. iMovie naime ima share opciju na sve poznate video servise. Odabrao sam 720p HD video. Ovaj put sam dobio dobar zvuk, ali mi je slika bila odsječena jer je rezolucija bila manja od rezolucije orginalnog videa (1440x900).</div>
+<p />
+<div>Skontao sam da postoji opcija "Window/Cropping ..." kod koje postoji &nbsp;"Fit" akcija kojom se video "resajza" unutar odabrane rezolucije:</div>
+<div><div class='p_embed p_image_embed'>
+<a href="http://getfile9.posterous.com/getfile/files.posterous.com/temp-2011-05-29/qozAhCvpcaoJBlrpjehwdbnbGwkGDAgxGcGzEtglwmtveCykwCvEvaIcEzap/Screen_shot_2011-05-29_at_5.23.05_PM.png.scaled1000.png"><img alt="Screen_shot_2011-05-29_at_5" height="209" src="http://getfile3.posterous.com/getfile/files.posterous.com/temp-2011-05-29/qozAhCvpcaoJBlrpjehwdbnbGwkGDAgxGcGzEtglwmtveCykwCvEvaIcEzap/Screen_shot_2011-05-29_at_5.23.05_PM.png.scaled500.png" width="500" /></a>
+</div>
+</div>
+<p />
+<div>&Scaron;to se zvuka tiče, treba reći da sam u iMovie-u napravio pojačanje zvuka (cca 140%), a nakon toga opciju "normalize sound". U originalnom videu glas je bio tih jer sam da sam snimao na ugrađeni mikrofon - bez slu&scaron;alica. S obzirom na tu činjenicu, zvuk je stvarno iznenađujuče dobar.</div>
+<p />
+<div>Pored ovoga, na početku sam dodao sam title od 20-sec na početak videa title opcijom:<div class='p_embed p_image_embed'>
+<img alt="Screen_shot_2011-05-29_at_7" height="67" src="http://getfile2.posterous.com/getfile/files.posterous.com/temp-2011-05-29/okgIfxJDsBvhnwJJiFcinvGxrquuwznvagACiodEfqgnaIhuxCjmoHHwpGxz/Screen_shot_2011-05-29_at_7.51.48_PM.png.scaled500.png" width="317" />
+</div>
+</div>
+<p />
+<div>---&nbsp;</div>
+<div>(*) aplikacija koja je out-of-box instalirana na MacOSX</div>
+]]></content:encoded>
+	<excerpt:encoded><![CDATA[Raspored tipki na Mac-u je totalno različit u odnosu na PC. Do znakova kao što su "@", "|", "\", "^", "DEL" fakat nije lahko doći. Desni klik na mišu ?! Mac mouse hardware nema fizički dugme za desni klik ko PC, dok mnoge aplikacije koje kori...]]></excerpt:encoded>	
+
+	<wp:post_date>Sun May 29 06:05:00 -0700 2011</wp:post_date>
+	<wp:post_date_gmt>%= display_date %></wp:post_date_gmt>
+	<wp:comment_status>open</wp:comment_status>
+	<wp:ping_status>open</wp:ping_status>
+	<wp:post_name>macosx-za-bosanca</wp:post_name>
+	<wp:status>publish</wp:status>
+	<wp:post_parent>0</wp:post_parent>
+	<wp:menu_order>0</wp:menu_order>
+	<wp:post_type>post</wp:post_type>
+	<wp:post_password></wp:post_password>
+	<wp:is_sticky>0</wp:is_sticky>
+
+	
+		<wp:comment>
+			<!-- <wp:comment_id>5</wp:comment_id> -->
+			<wp:comment_author><![CDATA[]]></wp:comment_author>
+			<wp:comment_author_email></wp:comment_author_email>
+			<wp:comment_author_url></wp:comment_author_url>
+			<wp:comment_date>Mon Sep 03 01:49:59 -0700 2012</wp:comment_date>
+			<wp:comment_date_gmt>Mon Sep 03 01:49:59 -0700 2012</wp:comment_date_gmt>
+			<wp:comment_content><![CDATA[u X11 (F18 se izvršava unutar F18) možemo mapirati tipke
+
+# ~/.bash_profile
+xmodmap -e &quot;keycode 119 = Insert&quot;]]></wp:comment_content>
+			<wp:comment_approved>1</wp:comment_approved>
+			<wp:comment_type></wp:comment_type>
+			<wp:comment_parent>0</wp:comment_parent>
+		</wp:comment>
+	
+		<wp:comment>
+			<!-- <wp:comment_id>5</wp:comment_id> -->
+			<wp:comment_author><![CDATA[]]></wp:comment_author>
+			<wp:comment_author_email></wp:comment_author_email>
+			<wp:comment_author_url></wp:comment_author_url>
+			<wp:comment_date>Mon Sep 03 01:55:13 -0700 2012</wp:comment_date>
+			<wp:comment_date_gmt>Mon Sep 03 01:55:13 -0700 2012</wp:comment_date_gmt>
+			<wp:comment_content><![CDATA[za proizvoljna podešenja X11 je dobar &quot;xev&quot; utility
+
+pokrenem njega i gledam koji keycode dobijam.
+
+na kraju sam podesio
+
+xmodmap -e &quot;keycode 84 = Insert&quot;
+
+time dobijam sa fn+ENTER insert tipku]]></wp:comment_content>
+			<wp:comment_approved>1</wp:comment_approved>
+			<wp:comment_type></wp:comment_type>
+			<wp:comment_parent>0</wp:comment_parent>
+		</wp:comment>
+	
+</item>

@@ -48,12 +48,14 @@ grunt.registerMultiTask('htmlfix', 'fix HTML', function () {
       */
 
 
-      //var regPosts= /(<ul.*post_responses list.*<\/ul>)/m
-      var regPosts= /(<ul class=\'post_responses list.*[\n\S\s]*ul>)/m
+      var regArchived = /This is an archived post\n\This is an archived post/m
+      content = content.replace(regArchived, "(Ovaj članak je prebačen sa ranijeg posterous blog sistema)");
      
       var regPregledano = /(\d+) views and (\d+) responses.*<\/h4>/
+      content = content.replace(regPregledano, 'Pregleda $1, komentara: $2</h4>(Status na dan 07.04.2013 prema statistici posterous blog sistema)<hr/>');
 
-      content = content.replace(regPregledano, 'Pregleda $1, komentara: $2</h4>(Status na dan 07.04.2013 prema statistici dotadašnjeg posterous blog sistema)<hr/>');
+
+      var regPosts= /(<ul class=\'post_responses list.*[\n\S\s]*ul>)/m
       var newContent = content.replace(regPosts, '$1\n<!--(bake includes/disqus.html)-->');
 
       if (content.length < 1) {

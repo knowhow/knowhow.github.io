@@ -1,0 +1,8 @@
+{
+  "name": "www-knowhow",
+  "version": "0.3.0",
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-bake": "git://github.com/hernad/grunt-bake.git#master"
+  }
+}

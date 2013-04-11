@@ -49,7 +49,7 @@ grunt.registerMultiTask('htmlfix', 'fix HTML', function () {
 
 
       //var regPosts= /(<ul.*post_responses list.*<\/ul>)/m
-      var regPosts= /(<ul class=\'post_responses list.*\n.*ul>)/m
+      var regPosts= /(<ul class=\'post_responses list.*[\n\S\s]*ul>)/m
      
       var regPregledano = /(\d+) views and (\d+) responses.*<\/h4>/
 
